@@ -17,7 +17,7 @@ const handleViewDetails = (productId) => {
                     <div key={product.id}>
                         <h2>{product.name}</h2>
                         <p>{product.description}</p>
-                        <p>${product.price.toFixed(2)}</p>
+                        <p className="text-sky-800" font-bold>${product.price.toFixed(2)}</p>
 
                         <div>
                             <button 
