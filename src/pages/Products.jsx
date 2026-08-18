@@ -22,7 +22,7 @@ const handleViewDetails = (productId) => {
                         <div>
                             <button 
                                 onClick={() => handleViewDetails(product.id)} 
-                                className="text-white bg-teal-500 px-4 py-2 rounded-md hover:bg-teal-700">
+                                className="text-white bg-sky-800 px-4 py-2 rounded-md hover:bg-sky-600">
                                 View Details
                             </button>
                         </div>

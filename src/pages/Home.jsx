@@ -9,12 +9,12 @@ export default function Home() {
 
             <button
                 onClick={() => navigate("/about")}
-                className="text-white bg-teal-500 px-4 py-2 rounded-md text-sm font-medium hover:bg-teal-600"
+                className="text-white bg-sky-800 px-4 py-2 rounded-md text-sm font-medium hover:bg-sky-600"
             >
                 Go to About
             </button>
 
-            <Link to="/contact" className="text-teal-500 text-sm underline">Go to Contact</Link>
+            <Link to="/contact" className="text-sky-800 text-sm underline">Go to Contact</Link>
         </div>
     );
 }
